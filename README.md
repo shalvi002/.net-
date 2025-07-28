@@ -121,9 +121,111 @@ namespace Shalvi.net
 OUTPUT:
 <img width="232" height="207" alt="image" src="https://github.com/user-attachments/assets/d7a1c6a8-39b8-465d-95b8-a7ee015d0fb1" />
 
+##Prec-7
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
+namespace Shalvi.net
+{ internal class Program 
+    { static void Main(string[] args) 
+        { Console.Write("Enter your roll number: "); 
+            int rollNumber = Convert.ToInt32(Console.ReadLine()); 
+            if (rollNumber % 2 == 0) { Console.WriteLine("The roll number is Even.");
+            }
+            else { Console.WriteLine("The roll number is Odd.");
+            }
+        } 
+    } 
+}
+OUTPUT:
+<img width="395" height="116" alt="image" src="https://github.com/user-attachments/assets/ebaea0aa-ada8-4e5b-9e8a-83d91f7eb1da" />
+
+##Prec-8
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Shalvi.net
+{ internal class Program
+    { static void Main(string[] args)
+        { Console.Write("Enter the side length of the square: "); 
+            int side = Convert.ToInt32(Console.ReadLine());
+            int area = side * side;
+            Console.WriteLine("Area of the square: " + area); 
+        } 
+    } 
+}
 
 
 OUTPUT:
-<img width="392" height="210" alt="image" src="https://github.com/user-attachments/assets/fbce55a3-8853-4d63-abe2-13dca95eed59" />
+<img width="473" height="95" alt="image" src="https://github.com/user-attachments/assets/f20f521c-53db-4b11-9d62-f882afb89cc5" />
+
+##Prec-9
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Shalvi.net
+{ internal class Program 
+    { static void Main(string[] args)
+        { int number = 42; object boxedNumber = number; 
+            Console.WriteLine("Original int value: " + number);
+            Console.WriteLine("Boxed object value: " + boxedNumber);
+            Console.ReadLine();
+        } 
+    }
+}
+<img width="343" height="172" alt="image" src="https://github.com/user-attachments/assets/a0a8c925-9463-4bba-8fc0-8fae5cfda2ec" />
+
+##Prec-10
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Shalvi.net
+{ internal class Program 
+    { static void Main(string[] args)
+        { object boxedValue = 100; 
+            int number = (int)boxedValue; 
+            Console.WriteLine("Boxed object value: " + boxedValue);
+            Console.WriteLine("Unboxed int value: " + number); 
+            Console.ReadLine(); 
+        } 
+    } 
+}
+OUTPUT:<img width="317" height="116" alt="image" src="https://github.com/user-attachments/assets/7df6769b-6279-4dcc-a61e-83ca17e4c5a1" />
+
+##prec-11
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Shalvi.net
+{ internal class Program
+    { static void Main(string[] args) 
+        { Console.Write("Enter your age: "); 
+            int age = Convert.ToInt32(Console.ReadLine());
+            if (age >= 18) { Console.WriteLine("You are eligible to vote."); 
+            } 
+            else { Console.WriteLine("You are not eligible to vote.");
+            } Console.ReadLine(); 
+        } 
+    }
+}
+
+
+OUTPUT:
+<img width="331" height="100" alt="image" src="https://github.com/user-attachments/assets/aa3c2e02-7d82-4a2b-8dae-ba78201b01ad" />
+
 
